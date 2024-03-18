@@ -11,10 +11,6 @@ void resetString(char *str) {
     str[0] = '\0';
 }
 
-void promptAndRead(const char *prompt, char *str) {
-    printf("%s", prompt);
-    scanf(" %[^\n]%*c", str);
-}
 
 void greetUser(char formalityLevel) {
     if (formalityLevel == 'a') {
